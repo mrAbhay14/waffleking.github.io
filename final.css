@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 00.5), rgba(23, 16, 16, 0.5)), url(https://th.bing.com/th/id/OIP.4wC2_BvBVP0UJ0u1QcAseAHaEL?w=267&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    /* background-color: white; */
+}
+.nav{
+    background-color: white;
+}
+.logo{
+    background-image: url(/waffletown.jpeg);
+}
+
+.search{
+    display: flex;
+    float: right;
+    margin-top: 7px ;
+    margin-right: 10px;
+   
+}
+#search{
+    background-color: olivedrab;
+    color: black;
+    padding: 5px;
+}
+
+/* wrong way to change placeholder color */
+
+#search placeholder{
+    color: black;
+}
+
+/* correct way  */
+
+input[type="text"]::placeholder{
+    color: black;
+}
+
+
+
+.nav {
+    width: 100%;
+    height: 49px;
+    background-color: transparent;
+}
+
+.nav a {
+    text-decoration: none;
+    float: left;
+    color: white;
+    padding: 14px 26px;
+    font-size: 17px;
+    transition: 0.5s ease;
+    /* background-color: white; */
+}
+
+.nav a:hover {
+    background-color: rgb(43, 198, 226);
+    text-decoration: underline solid rgb(255, 0, 225);
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color:white;
+    line-height: 1.7;
+    width: 500px;
+}
+.search_bar{
+    background-color: white;
+    color: black;
+    border: none;
+    /* outline: none; */
+}
+#input{
+    /* border: 1px solid white;
+    outline: none;
+    border: none;
+    border-top: none; */
+    border: 0;
+    margin-left: 15px;
+}
+#second-search{
+    /* padding-left: 206px; */
+    float: right;
+    padding-right: 50px;
+    /* text-align: center; */
+    background-color: olivedrab;
+    /* border: 1px solid green; */
+    margin-left: px;
+
+}
+.services{
+    margin-top: 50px;
+    display: flex;
+
+}
+.underline{
+    width: 100px;
+    color: olivedrab;
+    border: 2px solid olivedrab;
+}
+
+.services h3{
+    color: olivedrab;
+    /* text-decoration: 5px  olivedrab underline; */
+    
+}
+.logo{
+    z-index: -1;
+}
+
+
+/* -------------------------------------- */
+footer{
+    background-color: olivedrab;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer{
+    /* height: 100px; */
+}
+.color-blue{
+    height: 300px;
+}
+.first{
+    display: block;
+}
+.try,.try2{
+    /* display: flex; */
+    display: flex;
+    padding: 20px;
+}
+.pp,.pp2{
+    padding: 20px;
+}
